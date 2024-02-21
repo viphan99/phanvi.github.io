@@ -6,19 +6,21 @@ body {
 }
 .container {
     display: flex;
-    align-items: center; /* Vertically align items */
+    align-items: center; 
 }
 .content {
-    flex: 1; /* Take remaining space */
+    flex: 1; 
     padding: 20px;
 }
 .image {
-    flex: 1; /* Take remaining space */
-    padding: 20px;
-    text-align: center; /* Center the image horizontally */
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-top: -100px;
+    margin-right: 10px;
 }
 img {
-    max-width: 100%; /* Ensure the image doesn't overflow its container */
+    max-width: 100%; 
     height: auto;
 }   
 header {
